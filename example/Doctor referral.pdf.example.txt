@@ -1,0 +1,11 @@
+This is an example doctor referral placeholder.
+
+In a real setup, this file would be your doctor's referral letter
+(הפניה רפואית) from your HMO (קופת חולים).
+
+The referral should contain:
+- Referring doctor's name and license number
+- Patient name and ID
+- Referral code (קוד הפניה)
+- Diagnosis / reason for treatment
+- Referral validity dates

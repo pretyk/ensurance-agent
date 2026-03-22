@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Browser profile (contains session cookies)
+.browser-profile/
+
+# Screenshots (generated during claim submission)
+screenshot_*.png
+
+# Debug and one-off scripts (not needed for the agent)
+debug-*.js
+click-*.js
+fill-*.js
+fix-docs*.js
+connect-claim.js
+continue-form.js
+goto-payment.js
+select-options.js
+submit-claim.js
+final-click.js
+final-submit.js
+
+# Personal data — NEVER commit
+user-info.md
+
+# Treatment documents — stay local only
+# (add your provider folders here or use a wildcard)
+shiatzu/
+physiotherapy/
+dental/
+# Generic: any folder with treatment receipts
+# Keep the example/ folder tracked for reference
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Copilot session state
+.copilot/

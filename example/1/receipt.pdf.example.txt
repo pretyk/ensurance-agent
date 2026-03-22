@@ -1,0 +1,11 @@
+This is an example receipt PDF placeholder.
+
+In a real setup, this file would be your actual receipt/invoice
+(חשבונית מס קבלה) from your treatment provider.
+
+The receipt should contain:
+- Provider name and ID (עוסק מורשה)
+- Date of treatment
+- Treatment description
+- Amount paid (including VAT)
+- Receipt/invoice number

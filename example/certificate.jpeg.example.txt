@@ -1,0 +1,7 @@
+This is an example certificate placeholder.
+
+In a real setup, this file would be your treatment provider's
+professional certificate (תעודת מטפל).
+
+The certificate should confirm the provider is a licensed
+practitioner in the relevant treatment field.
