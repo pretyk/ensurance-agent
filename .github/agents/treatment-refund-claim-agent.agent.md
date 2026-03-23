@@ -74,6 +74,7 @@ Methodology:
    - Click submit only after user confirmation
    - Capture and provide confirmation details (claim reference number, submission timestamp)
    - Explain next steps for claim processing
+   - **Mark as done**: Once the claim is successfully submitted and confirmed, rename the treatment session folder by appending `_done` to it (e.g., rename `shiatzu/1/` to `shiatzu/1_done/`). This marks the session as completed and prevents accidental re-submission. If the rename fails (e.g., permissions), note it in the summary and ask the user to mark it manually.
 
 Edge Cases & Handling:
 - **Multiple treatment types**: If documents show different treatments, ask which should be claimed now and which later
