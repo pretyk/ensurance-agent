@@ -140,6 +140,56 @@ The agent supports all treatment categories available on Ayalon's portal:
 - **רפואה משלימה** — Complementary medicine
 - And more
 
+## ⚠️ Important Disclaimer
+
+> **USE AT YOUR OWN RISK — READ THIS BEFORE USING**
+
+### Nature of This Tool
+
+This agent is a **facilitation tool only**. It automates the mechanical process of filling web forms and uploading documents — the same actions you would perform manually in your browser. It is **not** a licensed insurance advisor, legal representative, or financial service provider. It does not provide insurance advice, legal counsel, or medical guidance of any kind.
+
+### How Authentication Works
+
+- The agent **does not store, handle, or have access to your passwords or OTP codes**. 
+- You must authenticate yourself by entering your OTP (one-time password) **directly in the browser window**. The agent cannot and does not bypass any security mechanisms.
+- The agent interacts with the Ayalon Insurance website **exactly as a human user would** — through a standard browser session that you can see and monitor in real time.
+
+### Your Responsibility
+
+- **You are solely and entirely responsible** for verifying that all information entered into the claim form is accurate, complete, and truthful before submission.
+- **You must review every field, every uploaded document, and every selection** the agent makes before confirming submission. The agent will prompt you for confirmation, but the final responsibility is yours.
+- Submitting false, inaccurate, or misleading information to an insurance company — whether done manually or through an automated tool — **may constitute fraud** and can result in claim denial, policy cancellation, legal action, or criminal prosecution under applicable Israeli law.
+- The agent may make mistakes, including but not limited to: selecting wrong dropdown values, entering incorrect amounts, uploading wrong documents, misreading PDF text, or filling fields with data from the wrong receipt. **You must catch and correct any errors before submission.**
+
+### No Warranties
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE AUTHORS AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO:
+
+- Denied insurance claims due to incorrect or incomplete submissions
+- Financial losses resulting from errors in form filling
+- Legal consequences arising from submission of inaccurate information
+- Loss of insurance coverage or benefits
+- Any damages arising from reliance on the agent's output without independent verification
+- Service disruptions caused by changes to the Ayalon Insurance website
+
+### No Affiliation
+
+This project is **not affiliated with, endorsed by, or associated with Ayalon Insurance (איילון ביטוח)** or any insurance company. It is an independent, open-source automation tool. The Ayalon Insurance website may change at any time, which could cause this tool to malfunction or produce incorrect results.
+
+### Applicable Law
+
+Insurance claims in Israel are governed by the Insurance Contract Law (חוק חוזה הביטוח), 1981, and related regulations. The user is responsible for ensuring compliance with all applicable laws and the terms of their insurance policy.
+
+### By Using This Tool, You Acknowledge That:
+
+1. You have read and understood this disclaimer
+2. You accept full responsibility for any claims submitted using this tool
+3. You will verify all information before submission
+4. You understand the agent is a facilitation tool and not a substitute for your own judgment
+5. You will not hold the authors liable for any consequences of using this tool
+
+---
+
 ## Security Notes
 
 - `user-info.md` is **git-ignored** — your personal details are never committed
@@ -150,4 +200,4 @@ The agent supports all treatment categories available on Ayalon's portal:
 
 ## License
 
-MIT
+MIT — see disclaimer above for limitation of liability.
