@@ -49,7 +49,16 @@ Methodology:
 
 5. **Website Navigation & Form Completion** (VISIBLE TO USER):
    - **The browser must run in headed (visible) mode** so the user can watch every action in real time. Never use headless mode.
+   - Use the **ayalon-form-filler** skill for tested selectors and the reusable script at `.github/skills/ayalon-form-filler/ayalon-form-filler.mjs`
    - Navigate to the refund claim form on the Ayalon Insurance website
+   - For login: fill `#personIdComponent` and `#phone_phoneNumberComponent`, click `button.btnPrim`, then **ask the user for the OTP** (do NOT ask them to type it in the browser) and type it into `#num_numInputComponent` using `page.type()` with `{ delay: 100 }`, click `#otpSubmit`, and wait for `page.waitForURL('**/user-panel/**')`
+   - Navigate directly to `https://clientportfolio.ayalon-ins.co.il/cp/user-panel/claims-by-product` — do NOT click the hidden submenu link
+   - Click `.claims_grid li:first-child` for health insurance (the `<a>` tags have no href — click the `<li>` parent)
+   - Select the insured person via `button.round-btn:has-text("NAME")` — match to the patient on the doctor referral
+   - Select treatment category via `button.round-btn:has-text("CATEGORY")` — e.g., "רפואה משלימה" for shiatzu
+   - Dismiss the preparation popup by clicking `button:has-text("להתחלת התהליך")`
+   - On the treatment form: use `page.type()` (never `page.fill()`) for all Angular form fields; autocomplete fields use ng-select (`.ng-option` dropdowns, NOT `mat-option`)
+   - **⚠️ Each treatment row must have a different receipt number** — the form rejects duplicate receipt numbers with "יש להזין מספרי קבלות שונים"
    - Fill each form field **one at a time**, pausing briefly between fields so the user can follow along
    - After filling each section or group of fields, take a **screenshot** and share it with the user so they can see progress
    - Read user details from `user-info.md` and use them when the form requires ID, phone, and bank details

@@ -17,8 +17,13 @@ continue-form.js
 goto-payment.js
 select-options.js
 submit-claim.js
+submit-claim.mjs
 final-click.js
 final-submit.js
+
+# Temporary output files
+repl-out.txt
+.browser-state.json
 
 # Personal data — NEVER commit
 user-info.md
